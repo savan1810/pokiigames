@@ -10,13 +10,13 @@ export default function Home() {
           style={{ backgroundImage: "url('images/home.png')" }}
         ></div>
         
-          <div className="flex justify-between px-6  py-4 border-b border-b-white/20">
+          <div className="flex justify-between px-6 py-6 sm:py-4 border-b border-b-white/20">
             <Image src='/images/logo.png' alt='pokigames' height={50} width={100} />
             <Image src='/images/play-now.png' alt='pokigames' height={44} width={80} />
           </div>
           {/* scorcard */}
 
-          <div className="rounded-[35px]    border border-[#EAEAEA]/20 h-auto w-[90%] mx-auto  mt-8 mb-0">
+          <div className="rounded-[35px]    border border-[#EAEAEA]/20 h-auto w-[90%] mx-auto  mt-8 mb-4 sm:mb-0">
             <div className=" px-4 py-2 flex justify-between ">
               <p className="font-medium text-white/70">ICC T20 WORLD CUP</p>
               <Image src='/images/ipl.png' alt='ipl' height={26} width={42} />
@@ -74,12 +74,12 @@ export default function Home() {
 
             </div>
           </div>
-          <div className="  text-center sm:h-[250px] h-[300px] mx-auto w-[90%] my-2">
+          <div className="  text-center sm:h-[250px] h-[300px] mx-auto w-[90%] sm:my-2 my-4">
             <p className="text-[#484f63] font-medium pt-4">ADVERTISEMENT</p>
           </div>
           <div className="text-center w-[90%] mx-auto">
 
-            <button className="tracking-widest w-full bg-[#3C61DD] hover:bg-[#3C61DD]/90 text-white  text-[18px] py-4 rounded-[50px] font-medium mt-2">RELOAD SCORE</button>
+            <button className="tracking-widest w-full bg-[#3C61DD] hover:bg-[#3C61DD]/90 text-white  text-[18px] py-4 rounded-[50px] font-medium sm:mt-2 mt-4">RELOAD SCORE</button>
           </div>
           <div className="mb-4 mt-8 w-[90%] mx-auto">
             <p className="text-white text-[15px]  font-extralight tracking-wider text-center">Get ready for precision prediction and thrilling wins on every ball. <span className="font-normal">Play Now!</span></p>
