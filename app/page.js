@@ -81,11 +81,11 @@ export default function Home() {
 
             <button className="tracking-widest w-full bg-[#3C61DD] hover:bg-[#3C61DD]/90 text-white  text-[18px] py-4 rounded-[50px] font-medium sm:mt-2 mt-4">RELOAD SCORE</button>
           </div>
-          <div className="mb-4 mt-8 w-[90%] mx-auto">
-            <p className="text-white text-[15px]  font-extralight tracking-wider text-center">Get ready for precision prediction and thrilling wins on every ball. <span className="font-normal">Play Now!</span></p>
-            <p className="text-white font-normal text-[15px] tracking-wider text-center my-4">Predict what will happen in next the ball!! and win 10 Coins.</p>
+          <div className="mb-4 mt-8 w-[98%] mx-auto">
+            <p className="text-white text-[15px] w-[90%] mx-auto  font-extralight tracking-wider text-center">Get ready for precision prediction and thrilling wins on every ball. <span className="font-normal">Play Now!</span></p>
+            <p className="text-white font-normal w-[90%] mx-auto text-[15px] tracking-wider text-center my-4">Predict what will happen in next the ball!! and win 10 Coins.</p>
 
-            <div className=" flex justify-around mx-auto flex-wrap my-8 gap-4">
+            <div className="w-[98%] flex justify-around mx-auto flex-wrap my-8 gap-4">
               <p className="border border-[#c2c2c2]  rounded-[50px] w-[157px] h-[52px] flex justify-center items-center">6</p>
               <p className="border border-[#c2c2c2]  rounded-[50px] w-[157px] h-[52px] flex justify-center items-center">4</p>
               <p className="border border-[#c2c2c2] tracking-wider  rounded-[50px] w-[157px] h-[52px] flex justify-center items-center ">Wicket</p>
@@ -102,7 +102,7 @@ export default function Home() {
           <div className="  text-center h-[300px] mx-auto w-[90%] my-5">
             <p className="text-[#484f63] font-medium pt-4">ADVERTISEMENT</p>
           </div>
-        <div className="my-10 w-[90%]  mx-auto">
+        <div className="my-10 w-[98%]  mx-auto">
           <div className="flex flex-wrap justify-around gap-8">
 
             <Image src="/images/car.png" alt="" height={154} width={154} />
@@ -116,7 +116,7 @@ export default function Home() {
         <div className="  text-center h-[300px] mx-auto w-[90%] my-5">
             <p className="text-[#484f63] font-medium pt-4">ADVERTISEMENT</p>
           </div>
-        <div className="my-10 w-[90%] mx-auto">
+        <div className="my-10 w-[98%] mx-auto">
           <div className="flex flex-wrap justify-around gap-8">
 
             <Image src="/images/car.png" alt="" height={154} width={154} />
