@@ -16,7 +16,7 @@ export default function Home() {
           </div>
           {/* scorcard */}
 
-          <div className="rounded-[35px]    border border-[#EAEAEA]/20 h-auto w-[90%] mx-auto  mt-8 mb-4 sm:mb-0">
+          <div className="rounded-[35px]    border border-[#EAEAEA]/20 bg-[#050A13]/30 h-auto w-[90%] mx-auto  mt-8 mb-4 sm:mb-0">
             <div className=" px-4 py-2 flex justify-between ">
               <p className="font-medium text-white/70">ICC T20 WORLD CUP</p>
               <Image src='/images/ipl.png' alt='ipl' height={26} width={42} />
@@ -103,7 +103,7 @@ export default function Home() {
             <p className="text-[#484f63] font-medium pt-4">ADVERTISEMENT</p>
           </div>
         <div className="my-10 w-[98%]  mx-auto">
-          <div className="flex flex-wrap justify-around gap-8">
+          <div className="flex flex-wrap justify-center gap-8">
 
             <Image src="/images/car.png" alt="" height={154} width={154} />
             <Image src="/images/car.png" alt="" height={154} width={154} />
@@ -117,7 +117,7 @@ export default function Home() {
             <p className="text-[#484f63] font-medium pt-4">ADVERTISEMENT</p>
           </div>
         <div className="my-10 w-[98%] mx-auto">
-          <div className="flex flex-wrap justify-around gap-8">
+          <div className="flex flex-wrap justify-center gap-8">
 
             <Image src="/images/car.png" alt="" height={154} width={154} />
             <Image src="/images/car.png" alt="" height={154} width={154} />
