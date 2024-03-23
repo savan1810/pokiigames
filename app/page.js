@@ -25,7 +25,7 @@ export default function Home() {
             <div className="px-4 py-2 flex justify-between items-center border-b-2 border-b-white/20">
               <div className="fle flex-col items-center justify-center ">
                 <Image src='/images/team1.png' alt='team1' height={32} width={32} />
-                <p className="text-white/70 my-2 font-semibold text-[13px] text-center">IND</p>
+                <p className="text-white/70 mt-2 font-semibold text-[13px] text-center">IND</p>
               </div>
               <div className="">
                 <p className="font-bold text-[24px]">120-0</p>
@@ -44,7 +44,7 @@ export default function Home() {
               <div className="fle flex-col items-center justify-center">
 
                 <Image src='/images/team2.png' alt='team2' height={32} width={32} />
-                <p className="text-white/70 my-2 font-semibold text-[13px] text-center">AUS</p>
+                <p className="text-white/70 mt-2 font-semibold text-[13px] text-center">AUS</p>
 
               </div>
             </div>
@@ -82,10 +82,11 @@ export default function Home() {
             <button className="tracking-widest w-full bg-[#3C61DD] hover:bg-[#3C61DD]/90 text-white  text-[18px] py-4 rounded-[50px] font-medium sm:mt-2 mt-4">RELOAD SCORE</button>
           </div>
           <div className="mb-4 mt-8 w-[98%] mx-auto">
-            <p className="text-white text-[15px] w-[90%] mx-auto  font-extralight tracking-wider text-center">Get ready for precision prediction and thrilling wins on every ball. <span className="font-normal">Play Now!</span></p>
+            <p className="text-white text-[15px] w-[90%] mx-auto  font-extralight tracking-wider text-center  mb-4">Get ready for precision prediction and thrilling wins on every ball. <span className="font-normal">Play Now!</span></p>
+            <p className="border border-[#ffffff]/20 w-[30%] mx-auto"></p>
             <p className="text-white font-normal w-[90%] mx-auto text-[15px] tracking-wider text-center my-4">Predict what will happen in next the ball!! and win 10 Coins.</p>
 
-            <div className="w-[98%] flex justify-around mx-auto flex-wrap my-8 gap-4">
+            <div className="w-[98%] flex justify-evenly mx-auto flex-wrap my-8 gap-4">
               <p className="border border-[#c2c2c2]  rounded-[50px] w-[157px] h-[52px] flex justify-center items-center">6</p>
               <p className="border border-[#c2c2c2]  rounded-[50px] w-[157px] h-[52px] flex justify-center items-center">4</p>
               <p className="border border-[#c2c2c2] tracking-wider  rounded-[50px] w-[157px] h-[52px] flex justify-center items-center ">Wicket</p>
@@ -103,7 +104,7 @@ export default function Home() {
             <p className="text-[#484f63] font-medium pt-4">ADVERTISEMENT</p>
           </div>
         <div className="my-10 w-[98%]  mx-auto">
-          <div className="flex flex-wrap justify-center gap-8">
+          <div className="flex flex-wrap justify-evenly  gap-y-8">
 
             <Image src="/images/car.png" alt="" height={154} width={154} />
             <Image src="/images/car.png" alt="" height={154} width={154} />
@@ -117,7 +118,7 @@ export default function Home() {
             <p className="text-[#484f63] font-medium pt-4">ADVERTISEMENT</p>
           </div>
         <div className="my-10 w-[98%] mx-auto">
-          <div className="flex flex-wrap justify-center gap-8">
+          <div className="flex flex-wrap justify-evenly gap-y-8">
 
             <Image src="/images/car.png" alt="" height={154} width={154} />
             <Image src="/images/car.png" alt="" height={154} width={154} />
